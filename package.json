@@ -1,6 +1,6 @@
 {
   "name": "webpack-blocks-server-source-map",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A webpack block that adds source map support to server bundle",
   "license": "MIT",
   "repository": "diegohaz/webpack-blocks-server-source-map",
