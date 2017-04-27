@@ -23,8 +23,8 @@ module.exports = createConfig([
 
 ## How it does
 
-- changes `devtool` to `sourcemap`;
-- inserts `require("source-map-support").install();` at the top of generated server files to require [`source-map-support`](https://github.com/evanw/node-source-map-support) and enable source map.
+-   changes `devtool` to `sourcemap`;
+-   inserts `require("source-map-support").install();` at the top of generated server files to require [`source-map-support`](https://github.com/evanw/node-source-map-support) and enable source map.
 
 For more details, see [`src/index.js`](src/index.js).
 
@@ -40,8 +40,8 @@ Returns **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Ref
 
 ## Other useful webpack blocks
 
-- [`webpack-blocks-happypack`](https://github.com/diegohaz/webpack-blocks-happypack)
-- [`webpack-blocks-split-vendor`](https://github.com/diegohaz/webpack-blocks-split-vendor)
+-   [`webpack-blocks-happypack`](https://github.com/diegohaz/webpack-blocks-happypack)
+-   [`webpack-blocks-split-vendor`](https://github.com/diegohaz/webpack-blocks-split-vendor)
 
 ## License
 
