@@ -1,9 +1,10 @@
+// @flow
 /**
  * Adds source map support to server bundle.
  * @returns {Function} webpack block
  */
-const serverSourceMap = () => ({ webpack }) => ({
-  devtool: 'sourcemap',
+const serverSourceMap = (devtool: string = 'source-map') => ({ webpack }: any) => ({
+  devtool,
   plugins: [
     new webpack.BannerPlugin({
       banner: 'require("source-map-support").install();',

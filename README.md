@@ -36,6 +36,10 @@ For more details, see [`src/index.js`](src/index.js).
 
 Adds source map support to server bundle.
 
+**Parameters**
+
+-   `devtool` **[string](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)?**  (optional, default `'source-map'`)
+
 Returns **[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/function)** webpack block
 
 ## Other useful webpack blocks

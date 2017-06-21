@@ -10,7 +10,7 @@ describe('serverSourceMap', () => {
 
   it('returns proper webpack block', () => {
     const block = serverSourceMap()(context)
-    expect(block.devtool).toBe('sourcemap')
+    expect(block.devtool).toBe('source-map')
     expect(block.plugins[0]).toBeTruthy()
   })
 })
