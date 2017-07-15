@@ -1,5 +1,7 @@
 # webpack-blocks-server-source-map
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/diegohaz/webpack-blocks-server-source-map.svg)](https://greenkeeper.io/)
+
 [![Generated with nod](https://img.shields.io/badge/generator-nod-2196F3.svg?style=flat-square)](https://github.com/diegohaz/nod)
 [![NPM version](https://img.shields.io/npm/v/webpack-blocks-server-source-map.svg?style=flat-square)](https://npmjs.org/package/webpack-blocks-server-source-map)
 [![Build Status](https://img.shields.io/travis/diegohaz/webpack-blocks-server-source-map/master.svg?style=flat-square)](https://travis-ci.org/diegohaz/webpack-blocks-server-source-map) [![Coverage Status](https://img.shields.io/codecov/c/github/diegohaz/webpack-blocks-server-source-map/master.svg?style=flat-square)](https://codecov.io/gh/diegohaz/webpack-blocks-server-source-map/branch/master)
